@@ -1,0 +1,4 @@
+Singleton Pattern
+For certain components like database connections, application logs, or configuration settings, you need to make sure that only ONE object of the class exists throughout your entire application. If you accidentally create multiple objects, it can cause serious problems
+- Conflicting Data: When multiple objects represent the same thing (like a database connection), they might end up holding different information, leading to inconsistent behavior across your application.
+- Wasted Resources: Creating multiple instances of resource-intensive classes (like database connections) consumes unnecessary memory and processing power, slowing down your application significantly.
